@@ -10,9 +10,9 @@ app.use(
     cors({
     origin: [
         "http://localhost:5173", 
-        "https://appdenotasdemate.netlify.app",
-        ],
-    })
+        "https://silly-unicorn-30c2f1.netlify.app",
+    ],
+  })
 );
 app.use (express.json())
 
