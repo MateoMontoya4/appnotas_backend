@@ -1,5 +1,5 @@
 import express, { Router } from "express"
-import Note from "../models/noteMODEL.js"
+import Note from "../models/noteModel.js"
 const router = express.Router()
 
 //obtener todas las notas
